@@ -7,3 +7,5 @@
 ### Демонстрация игры (Калькулятор)
 [![asciicast](https://asciinema.org/a/QoFdElxLDiJuaDIk.svg)](https://asciinema.org/a/QoFdElxLDiJuaDIk)
 
+### Демонстрация игры (НОД)
+[![asciicast](https://asciinema.org/a/g0irujY4QueaMvq5.svg)](https://asciinema.org/a/g0irujY4QueaMvq5)
