@@ -15,4 +15,3 @@
 
 ### Демонстрация игры (Простое ли число?)
 [![asciicast](https://asciinema.org/a/8FWKjKGx2BufY9fW.svg)](https://asciinema.org/a/8FWKjKGx2BufY9fW)
-
