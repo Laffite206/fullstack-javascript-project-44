@@ -1,5 +1,8 @@
 #!/usr/bin/env node
-import greetUser from '../src/cli.js'
+import getName from '../src/cli.js'
 
-console.log('Welcome to the Brain Games!')
-greetUser()
+export default function app() {
+  getName()
+}
+
+app()

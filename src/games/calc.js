@@ -15,7 +15,7 @@ const makeQuestion = () => {
   else if (randomOperation === '*') {
     correctAnswer = randomNum1 * randomNum2
   }
-  return { question: `${randomNum1} ${randomOperation} ${randomNum2}`, correctAnswer: String(correctAnswer)}
-};
+  return { question: `${randomNum1} ${randomOperation} ${randomNum2}`, correctAnswer: String(correctAnswer) }
+}
 
 export default () => runGame('What is the result of the expression?', makeQuestion)

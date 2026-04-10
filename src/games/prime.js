@@ -1,33 +1,32 @@
-import { question } from "readline-sync";
-import { runGame } from "../engine.js";
+import { runGame } from '../engine.js'
 
 const makeQuestion = () => {
-    const randomNum = Math.floor(Math.random() * 55)
-    let correctAnswer
-    if (randomNum < 2) {
-        correctAnswer = 'no'
+  const randomNum = Math.floor(Math.random() * 55)
+  let correctAnswer
+  if (randomNum < 2) {
+    correctAnswer = 'no'
+  }
+  else if (randomNum === 2) {
+    correctAnswer = 'yes'
+  }
+  else if (randomNum % 2 === 0) {
+    correctAnswer = 'no'
+  }
+  else {
+    let isPrime = true
+    for (let a = 3; a < randomNum; a++) {
+      if (randomNum % a === 0) {
+        isPrime = false
+        break
+      }
     }
-    else if (randomNum === 2) {
-        correctAnswer = 'yes'
-    }
-    else if (randomNum % 2 === 0) {
-        correctAnswer = "no"
+    if (isPrime === true) {
+      correctAnswer = 'yes'
     }
     else {
-      let isPrime = true
-      for (let a = 3; a < randomNum; a++) {
-        if (randomNum % a === 0) {
-            isPrime = false
-            break
-        }
-      }
-      if (isPrime === true) {
-        correctAnswer = 'yes'
-      }
-      else {
-        correctAnswer = 'no'
-      }
+      correctAnswer = 'no'
     }
-    return {question: randomNum, correctAnswer: String(correctAnswer) }
+  }
+  return { question: randomNum, correctAnswer: String(correctAnswer) }
 }
-export default () => runGame('Ansver "yes" if given number is prime. Otherwise answer "no".', makeQuestion)
+export default () => runGame('Answer "yes" if given number is prime. Otherwise answer "no".', makeQuestion)

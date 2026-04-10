@@ -14,7 +14,7 @@ const makeQuestion = () => {
   const randomNum1 = Math.floor(Math.random() * 50)
   const randomNum2 = Math.floor(Math.random() * 55)
   const correctAnswer = gcd(randomNum1, randomNum2)
-  return { question: `${randomNum1} ${randomNum2}`, correctAnswer: String(correctAnswer) }
+  return { question: `${randomNum1} ${randomNum2}`, correctAnswer }
 }
 
 export default () => runGame('Find the greatest common divisor of given numbers.', makeQuestion)
