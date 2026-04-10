@@ -9,3 +9,6 @@
 
 ### Демонстрация игры (НОД)
 [![asciicast](https://asciinema.org/a/g0irujY4QueaMvq5.svg)](https://asciinema.org/a/g0irujY4QueaMvq5)
+
+### Демонстрация игры (Арифметическая прогрессия)
+[![asciicast](https://asciinema.org/a/525MgAi87QlzVs4j.svg)](https://asciinema.org/a/525MgAi87QlzVs4j)
