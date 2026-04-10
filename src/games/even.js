@@ -1,16 +1,16 @@
 #!/usr/bin/env node
-import { runGame } from '../engine.js'
+import { runGame } from '../engine.js';
 
 const makeQuestion = () => {
-  let randomNum = Math.floor(Math.random() * 51)
-  let correctAnswer
+  let randomNum = Math.floor(Math.random() * 51);
+  let correctAnswer;
   if (randomNum % 2 === 0) {
-    correctAnswer = 'yes'
+    correctAnswer = 'yes';
   }
   else {
-    correctAnswer = 'no'
+    correctAnswer = 'no';
   }
-  return { question: randomNum, correctAnswer }
-}
+  return { question: randomNum, correctAnswer };
+};
 
-export default () => runGame('Answer "yes" if the number is even, otherwise answer "no".', makeQuestion)
+export default () => runGame('Answer "yes" if the number is even, otherwise answer "no".', makeQuestion);
