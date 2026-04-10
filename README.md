@@ -12,3 +12,7 @@
 
 ### Демонстрация игры (Арифметическая прогрессия)
 [![asciicast](https://asciinema.org/a/525MgAi87QlzVs4j.svg)](https://asciinema.org/a/525MgAi87QlzVs4j)
+
+### Демонстрация игры (Простое ли число?)
+[![asciicast](https://asciinema.org/a/8FWKjKGx2BufY9fW.svg)](https://asciinema.org/a/8FWKjKGx2BufY9fW)
+
