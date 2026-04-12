@@ -1,7 +1,7 @@
 import { runGame } from '../engine.js'
 
 const makeQuestion = () => {
-  const randomNum = Math.floor(Math.random() * 55) //NOSONAR
+  const randomNum = Math.floor(Math.random() * 55) // NOSONAR
   let correctAnswer
   if (randomNum < 2) {
     correctAnswer = 'no'
