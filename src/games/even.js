@@ -2,7 +2,7 @@
 import { runGame } from '../engine.js'
 
 const makeQuestion = () => {
-  let randomNum = Math.floor(Math.random() * 51)
+  let randomNum = Math.floor(Math.random() * 51) //NOSONAR
   let correctAnswer
   if (randomNum % 2 === 0) {
     correctAnswer = 'yes'

@@ -11,8 +11,8 @@ const gcd = (a, b) => {
 }
 
 const makeQuestion = () => {
-  const randomNum1 = Math.floor(Math.random() * 50)
-  const randomNum2 = Math.floor(Math.random() * 55)
+  const randomNum1 = Math.floor(Math.random() * 50) //NOSONAR
+  const randomNum2 = Math.floor(Math.random() * 55) //NOSONAR
   const correctAnswer = gcd(randomNum1, randomNum2)
   return { question: `${randomNum1} ${randomNum2}`, correctAnswer }
 }

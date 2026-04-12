@@ -2,9 +2,9 @@ import { runGame } from '../engine.js'
 
 const makeQuestion = () => {
   const expression = ['+', '-', '*']
-  const randomNum1 = Math.floor(Math.random() * 50)
-  const randomNum2 = Math.floor(Math.random() * 55)
-  const randomOperation = expression[Math.floor(Math.random() * expression.length)]
+  const randomNum1 = Math.floor(Math.random() * 50) //NOSONAR
+  const randomNum2 = Math.floor(Math.random() * 55) //NOSONAR
+  const randomOperation = expression[Math.floor(Math.random() * expression.length)] //NOSONAR
   let correctAnswer
   if (randomOperation === '+') {
     correctAnswer = randomNum1 + randomNum2
